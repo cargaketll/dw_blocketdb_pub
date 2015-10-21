@@ -350,7 +350,7 @@
            <schema_name/>
            </partitioning>
     <connection>dw_blocketdb_br_rds</connection>
-    <sql>select&#xd;&#xa;	destination_address&#xd;&#xa;,	sender_name&#xd;&#xa;,	sender_address&#xd;&#xa;,	smtp_server&#xd;&#xa;,	port&#xd;&#xa;,	authentication_use&#xd;&#xa;,	authentication_pass&#xd;&#xa;from stg.parameter_config_email&#xd;&#xa;where parameter_config_email_id_pk &#x3d; 2&#x3b;</sql>
+    <sql>select&#xd;&#xa;	destination_address&#xd;&#xa;,	sender_name&#xd;&#xa;,	sender_address&#xd;&#xa;,	smtp_server&#xd;&#xa;,	port&#xd;&#xa;,	authentication_use&#xd;&#xa;,	authentication_pass&#xd;&#xa;from stg.parameter_config_email&#xd;&#xa;where parameter_config_email_id_pk &#x3d; 3&#x3b;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
